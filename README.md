@@ -13,4 +13,4 @@ Requirements:
 
 Launch the Tensorboard server with `tensorboard --logdir="learn.path/logs"`, then navigate to localhost:6006
 
-Files with _old are for v0.* of fastai.
+Files followed by old are for v0.* of fastai.
