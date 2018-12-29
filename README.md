@@ -6,11 +6,10 @@ Updated to support Fastai v1
 
 This callback plots training loss, validation loss, metrics, learning rate, and momentum. Every X iterations a snapshot of the model’s weights are logged and can be viewed in Tensorboard histogram and distribution tab. Every epoch, the embedding layers are saved and can be viewed in 3D with dimensionality reduction in the projector tab. Lastly, the model’s dataflow graph can be viewed in the graph tab.
 
-Requirements:
-* `pip install tensorboard`
-* `pip install tensorboardX`
+### Installation
+```bash
+pip install git+https://github.com/Pendar2/fastai-tensorboard-callback.git
+```
 
 
 Launch the Tensorboard server with `tensorboard --logdir="learn.path/logs"`, then navigate to localhost:6006
-
-Files with _old are for v0.* of fastai.

@@ -1,5 +1,5 @@
 from tensorboardX import SummaryWriter
-from fastai import *
+from fastai.basics import *
 
 @dataclass
 class TensorboardLogger(Callback):
